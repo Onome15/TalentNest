@@ -1,0 +1,108 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+Nav{
+  font-size: 17px;
+}
+
+.img{
+  width: 100px;
+  height: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button.navbar-toggler{
+  border: none;
+}
+
+button.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+label{
+  color: blue;
+  /* margin-left: 10px; */
+}
+
+input, input:focus {
+  border-radius: 5px;
+  border: 1px solid blue;
+  outline: blue;
+  /* width: 350px; */
+}
+@media only screen and (min-width: 500px) {
+  input{
+    width: 350px;
+  }
+}
+.insideDiv{
+background-color: rgb(255, 255, 255);
+padding: 10px ;
+box-sizing: border-box;
+width: fit-content;
+display: grid;
+place-content: center;
+}
+
+.outsideDiv{
+background-color: rgba(240, 248, 255, 0.438) ;
+height: 100vh;
+display: grid;
+padding: 40px 20px;
+place-content: center;
+position: relative
+}
+
+.outsideDiv2{
+ position: absolute;
+ top: 20px;
+ left: 10px;
+  }
+
+Button[type]{
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: -10px;
+}
+
+.formHeader{
+  text-align: center;
+  padding: 20px;
+  color: blue;
+}
+
+#nav{
+  background-color: rgb(207, 234, 243);
+  margin-left: -20px;
+  padding-left: 20px;
+  margin-right: -15px;
+  /* padding-bottom: 90vh;
+ overflow-y: hidden; */
+}
+@media only screen and (min-width: 768px) {
+  #nav{
+    background-color: transparent;
+   margin: none;
+   padding: none;
+  }
+}

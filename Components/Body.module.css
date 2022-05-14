@@ -1,0 +1,246 @@
+.bodyHeader {
+  color: darkblue;
+  padding-top: 270px;
+  text-align: center;
+  font-weight: '900';
+  margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bodyHeader {
+    /* font-size: 1.7rem; */
+    font-size: 45px;
+    padding-top: 50px;
+  }
+}
+
+.header2 {
+  color: darkblue;
+  text-align: center;
+  margin-top: -40px;
+  padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header2 {
+    text-align: right;
+    margin-top: 40px;
+  }
+}
+
+.bodyHeader2 {
+  color: darkblue;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: '900';
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bodyHeader2 {
+    /* font-size: 1.7rem; */
+    font-size: 45px;
+
+  }
+}
+
+.translate {
+
+  height: 320px;
+  width: 70%;
+  margin: 15px auto 0px;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  /* border: 2px red solid; */
+  background: url('/onome.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-clip: padding-box;
+
+}
+
+.translate1 {
+  height: 320px;
+  width: 70%;
+  margin: 15px auto 0px;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  /* border: 2px red solid; */
+  background: url('/image1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-clip: padding-box;
+
+}
+
+.background {
+  background-color: rgb(240, 240, 255);
+}
+
+.background2 {
+  background-color: rgba(240, 240, 255, 0.5);
+  margin-top: 60px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+
+/* .column{
+    padding-bottom: 20px;
+    : none;
+} */
+
+.column {
+  border-color: transparent;
+  border-radius: 20px;
+  box-shadow: 2px 5px 7px rgba(155, 154, 154, 0.2);
+  outline: none;
+  padding-bottom: 0px;
+  /* margin-bottom: 30px; */
+  width: 65%;
+  height: 95%;
+  margin: 20px auto;
+box-sizing: border-box;
+
+}
+
+
+.checkIcon {
+  border: 2px solid none;
+  border-radius: 50%;
+  /* padding: 10px; */
+padding-top: 10px;
+  text-align: center;
+  margin: 5px;
+  /* margin: 0 auto; */
+  width: 50px;
+  height: 50px;
+  background-color: rgb(240, 240, 255);
+}
+
+.checkIcon1 {
+  border: 2px solid none;
+  border-radius: 50%;
+  /* padding: 10px; */
+padding-top: 10px;
+  text-align: center;
+  margin: 5px;
+  /* margin: 0 auto; */
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+@media only screen and (min-width: 992px) {
+  .checkIcon {
+    margin-left: -10px;
+  }
+}
+
+.checkIcon2 {
+  border: 2px solid none;
+  border-radius: 50%;
+  /* padding: 10px; */
+padding: 9px;
+  text-align: center;
+  margin-left: 5px;
+ /* margin-right: px; */
+  width: 40px;
+  height: 40px;
+  background-color: rgb(240, 240, 255);
+}
+
+@media only screen and (min-width: 992px) {
+  .checkIcon2 {
+    margin-left: -10px;
+  }
+}
+
+
+.horizontalCentering {
+  display: grid;
+  place-content: center;
+}
+
+.ImageCentering {
+  height: 500px;
+  margin: 15px auto 0px;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  /* border: 2px red solid; */
+  background: url('/image2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-clip: padding-box;
+}
+
+@media only screen and (min-width: 500px) {
+  .ImageCentering {
+   width: 250px;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .ImageCentering {
+   width: 300px ;
+   height: 550px;
+  }
+}
+
+.translateD{
+
+  height: 360px;
+  width: 60%;
+  margin: 15px auto 0px;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  /* border: 2px red solid; */
+  background: url('/image3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-clip: padding-box;
+padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .translateD {
+    position: absolute;
+    bottom: 0px;
+    left: 12%;
+    /* height: 420px; */
+  }
+}
+
+.cardImage{
+  width: 50%;
+  margin: 0 auto;
+  transform: translateY(-40%);
+  margin-bottom: -30%;
+}
+
+.rowCol{
+  margin-bottom: 80px;
+}
+
+ @media only screen and (min-width: 768px) {
+  .rowCol {
+    margin-bottom: 0px;
+  }
+}
+
+/*@media only screen and (min-width: 1160px) {
+  .cardImage {
+    margin-bottom: -90px;
+  }
+} */
